@@ -1,0 +1,46 @@
+body {
+    background: black;
+}
+h1 {
+    text-align: center;
+    color: yellow;
+    font-family: 'Black Ops One', cursive;
+    font-size: 300%;
+}
+img {
+    max-width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+p {
+    color: white;
+}
+.cardsGroup {
+    display: flex;
+    flex-wrap: wrap;
+}
+.individualCards {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background: rgba(62, 109, 82, 0.329);
+    margin: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    align-items: stretch;
+    align-content: space-around;
+}
+.quote {
+    font-family: 'Biryani', sans-serif;
+    font-size: 80%;
+    padding: 3px;
+    max-width: 180px;
+}
+.author{ 
+    align-items: flex-end;
+    font-family: 'Biryani', sans-serif;
+    align-self: flex-end;
+    font-size: 75%;
+    color: rgb(155, 153, 153);
+}

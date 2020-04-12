@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Axios and Vue</title>
+        <link href="css/main.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Biryani:wght@300;800&family=Black+Ops+One&display=swap" rel="stylesheet">
+        <title>Breaking Bad Quotes</title>
+    </head>
+    <body>
+        <h1>Breaking Bad Quotes</h1>
+        <img src="images/breakingbad.svg" alt="heisenberghead">
+    <div id="app" class="cardsGroup">
+        <div v-for="quote in quotes" :key="quote.id">
+            <section class="individualCards">
+                <p class="quote">{{quote.quote}}</p>
+                <p class="author"> - {{quote.author}}</p>
+            </section>
+        </div>
+    </div>
+        <script src="node_modules/axios/dist/axios.js"></script>
+        <script src="node_modules/vue/dist/vue.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
